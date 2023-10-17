@@ -1,0 +1,11 @@
+
+.Contact-head{
+    font-family: type;
+    margin-left: 8vw;
+}
+
+@media (max-width: 600px) {
+    .Contact-image{
+        width: 70vw !important;
+    }
+}

@@ -1,5 +1,5 @@
 import About from "./components/About/page";
-import Services from "./Services/page";
+import Services from "./components/Services/page";
 export default function Home() {
   return (
     <>

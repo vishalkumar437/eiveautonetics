@@ -2,6 +2,7 @@ import React from "react";
 import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare, AiFillFacebook } from "react-icons/ai";
 import "./footer.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -15,19 +16,19 @@ const Footer = () => {
         </p>
         <ul className="footer__socials">
           <li>
-            <a href="#">
+            <Link href="#">
               <AiFillFacebook />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link href="#">
               <CgInstagram />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link href="#">
               <AiFillTwitterSquare />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -35,19 +36,19 @@ const Footer = () => {
         <h3>Services</h3>
         <ul>
           <li>
-            <a href="#" className="text">
+            <Link href="#" className="text">
               Automation
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text">
+            <Link href="#" className="text">
               Web Development
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text">
+            <Link href="#" className="text">
               Application Development
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -61,14 +62,14 @@ const Footer = () => {
             </address>
           </li>
           <li>
-            <a href="tel:+918789658374" className="text">
+            <Link href="tel:+918789658374" className="text">
               Tel: +918789658374
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="mailto:eive.autonetics@easywaytolearn.com" className="text">
+            <Link href="mailto:eive.autonetics@easywaytolearn.com" className="text">
               Email: eive.autonetics@easywaytolearn.com
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

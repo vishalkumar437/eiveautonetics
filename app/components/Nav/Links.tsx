@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import "./style.css"
+import Link from "next/link";
 const Links = () => {
   const links = [
     "home",
@@ -29,16 +30,21 @@ const Links = () => {
           }`}
         >
           {links.map((link, index) => {
-            return (
-              <a
-                key={`link-${index}`}
-                className={!index ? "active" : ""}
-                href={`#${link}`}
-                onClick={toggleVisibility}
-              >
-                {link}
-              </a>
-            );
+            if(link==="contact"){
+              return <Link href={"/contact"}>{link}</Link>
+            }else{
+              return (
+                <Link
+                  key={`link-${index}`}
+                  className={!index ? "active" : ""}
+                  href={`/#${link}`}
+                  onClick={toggleVisibility}
+                >
+                  {link}
+                </Link>
+              );
+            }
+            
           })}
         </div>
     </>
