@@ -2,6 +2,7 @@ import React from "react";
 import { CircularProgress, Typography } from "@mui/joy";
 import "./about.css";
 import Image from "next/image";
+import Link from "next/link";
 const About = () => {
   const percentage = 75;
 
@@ -18,7 +19,7 @@ const About = () => {
             productivity.
           </p>
           <div className="about__buttons">
-            <button className="btn btn-primary">Get In Touch</button>
+            <Link href={"/contact"} style={{margin:"10px"}} className="btn btn-primary">Get In Touch</Link>
             <a href="#services">
               <span>Our Services</span>
             </a>

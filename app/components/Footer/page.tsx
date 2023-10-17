@@ -3,17 +3,14 @@ import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare, AiFillFacebook } from "react-icons/ai";
 import "./footer.css";
 import Link from "next/link";
-
+import logo from "../../../public/eive.png"
+import Image from "next/image"
 const Footer = () => {
   return (
     <footer id="contact" className="container footer__container">
       <div className="about">
-        <h3>LOGO</h3>
-        <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-          voluptatum repellat placeat aperiam. Molestiae consectetur molestias
-          magni laudantium doloremque!
-        </p>
+        <Image src={logo} alt={"Eive"} style={{height:"120px",width:"120px"}}/>
+        
         <ul className="footer__socials">
           <li>
             <Link href="#">

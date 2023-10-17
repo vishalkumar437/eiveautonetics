@@ -20,6 +20,9 @@
     border-radius: var(--radius) 0 0 var(--radius);
     box-shadow: var(--box-shadow);
   }
+  .about__buttons{
+    margin-top:2.0rem;
+  }
   .about__buttons button {
     margin-right: 1.5rem;
   }

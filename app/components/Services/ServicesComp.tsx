@@ -3,13 +3,14 @@ import { SiBandrautomation } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import {BsLaptop} from "react-icons/bs"
+import Link from "next/link";
 
 const ServicesComp = () => {
   return (
     <div className="services__servicesComp">
       <div>
         <h1>Our Servcices For Technology You Need</h1>
-        <button className="btn btn-primary">Load More</button>
+        <Link href={"/"} className="btn btn-primary">Load More</Link>
       </div>
       <div>
         <div>
