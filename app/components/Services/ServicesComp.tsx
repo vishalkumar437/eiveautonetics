@@ -39,7 +39,7 @@ const ServicesComp = () => {
         <div>
           <div className="icon"><BsLaptop /></div>
           <h4>IT Consultant</h4>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Manage and maintain existing services.</p>
         </div>
       </div>
     </div>

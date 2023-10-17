@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 function Intro() {
   return (
@@ -23,7 +24,7 @@ function Intro() {
             development, implementation and testing the RPA framework in your
             organization.
           </p>
-          <button className="btn btn-primary">More About</button>
+          <Link href="/about" className="btn btn-primary">More About</Link>
         </div>
       </div>
     </div>
