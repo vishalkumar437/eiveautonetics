@@ -7,12 +7,12 @@ function Contact (){
       <div className="contact">
         <a href="mailto:lormail@gmail.com">
           <AiFillMail />
-          <span>eive.autonetics@easywaytolearn.com</span>
+          <span>help@eiveautonetics.com</span>
         </a>
 
-        <a href="tel:+918789658374">
+        <a href="tel:+919830345551">
           <AiFillPhone />
-          <span>+918789658374</span>
+          <span>+919830345551</span>
         </a>
       </div>
     );

@@ -55,17 +55,17 @@ const Footer = () => {
           <li>
             <address className="text">
             Hyderabad
-            Hyderabad, Hyderabad, Telangana IN
+            , Telangana IN
             </address>
           </li>
           <li>
-            <Link href="tel:+918789658374" className="text">
-              Tel: +918789658374
+            <Link href="tel:+919830345551" className="text">
+              Tel: +919830345551
             </Link>
           </li>
           <li>
             <Link href="mailto:eive.autonetics@easywaytolearn.com" className="text">
-              Email: eive.autonetics@easywaytolearn.com
+              Email: contact@eiveautonetics.com
             </Link>
           </li>
         </ul>
